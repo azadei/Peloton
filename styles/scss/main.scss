@@ -1,0 +1,258 @@
+body {
+  background-color: #2b2828;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #cac8c8;
+  }
+}
+
+.white-rectangle {
+  width: 100%;
+  height: 64px;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.social-icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: -6px;
+  color: #8A9CA7;
+  margin: 0px;
+  transform: translateX(48px);
+
+  i {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 18px;
+  }
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  color: #181A1D;
+
+  img {
+    max-height: 100%;
+    max-width: 130px;
+  }
+}
+
+.nav {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 30px;
+  color: #292929;
+  margin: 0px;
+  margin-right: 67px;
+
+  i {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+.menu-buttons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 60px;
+  margin: 0px;
+  transform: translateX(56px);
+  margin-top: 20px;
+
+  a {
+    font-size: 16px;
+    color: #6D8493;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.search-input {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  margin-bottom: 0px;
+  margin-right: 65px;
+  position: relative;
+
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    color: #8A9CA7;
+    pointer-events: none;
+  }
+}
+
+.input {
+  width: 640px;
+  height: 36px;
+  border: 1px solid #e0e2e4;
+  border-radius: 4px;
+  padding: 8px 32px 8px 16px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.notification-container {
+  position: relative;
+  display: inline-block;
+
+  .notification-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+}
+
+.second-header {
+  background-color: #151D20;
+  width: 100%;
+  height: 80px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #616d75;
+    margin-bottom: 500px;
+  }
+}
+
+.second-white-rectangle {
+  width: 100%;
+  height: 64px;
+  background-color: #151D20;
+  display: flex;
+}
+
+.second-social-icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: -6px;
+  color: #576974;
+  margin: 0px;
+  transform: translateX(48px);
+
+  i {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 18px;
+  }
+}
+
+.second-logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  color: #181A1D;
+
+  img {
+    max-height: 100%;
+    max-width: 130px;
+    align-self: flex-start;
+    margin-top: -33px;
+  }
+}
+
+.second-nav {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 30px;
+  color: #576974;
+  position: absolute;
+  top: 192px;
+  right: 66px;
+
+  i {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+.second-menu-buttons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 60px;
+  margin: 0px;
+  transform: translateX(56px);
+  margin-top: 20px;
+
+  a {
+    font-size: 16px;
+    color: #FBFBFB;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.second-search-input {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  margin-bottom: 0px;
+  margin-right: 65px;
+  position: relative;
+
+  .second-search-icon {
+    position: absolute;
+    right: 10px;
+    color: #C6CDD5;
+    pointer-events: none;
+  }
+}
+
+.second-input {
+  width: 640px;
+  height: 36px;
+  border: 1px solid #8A9CA7;
+  border-radius: 4px;
+  padding: 8px 32px 8px 16px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
